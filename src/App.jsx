@@ -1,16 +1,6 @@
 import React from "react";
-import { motion } from "framer-motion";
-import {
-  Cpu,
-  ShieldCheck,
-  Target,
-  Radio,
-  MoveRight,
-  Eye,
-  Box,
-  Database,
-} from "lucide-react";
-import Navbar from "./assets/Components/Navbar.jsx"
+
+import Navbar from "./assets/Components/Navbar.jsx";
 import Hero from "./assets/Components/Hero.jsx";
 import About from "./assets/Components/About.jsx";
 import Capabilites from "./assets/Components/Capabilites.jsx";
@@ -22,7 +12,7 @@ export default function App() {
   return (
     <div className="flex flex-col min-h-screen overflow-x-hidden">
       <Navbar />
-      <main className="flex-grow">
+      <main className="grow">
         <Hero />
         <About />
         <Capabilites />
