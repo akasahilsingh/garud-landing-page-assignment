@@ -1,1 +1,69 @@
+@import url('[https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap](https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap)');
+
 @import "tailwindcss";
+
+html {
+  scroll-behavior: smooth
+}
+
+
+
+@import "tailwindcss";
+
+/* -----------------------------------------
+   CUSTOM DESIGN TOKENS (Tailwind v4)
+------------------------------------------ */
+@theme {
+  --font-sans: "Inter", sans-serif;
+
+  --color-brand-dark: #0a0a0a;
+  --color-brand-gray: #171717;
+  --color-brand-cyan: #22d3ee;
+  --color-brand-light: #f5f5f5;
+  --color-brand-muted: #a3a3a3;
+}
+
+/* -----------------------------------------
+   GLOBAL ELEMENT STYLES (NO @apply in v4)
+------------------------------------------ */
+
+body {
+  background: var(--color-brand-dark);
+  color: var(--color-brand-light);
+  font-family: var(--font-sans);
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Shared heading styles */
+h1, h2, h3 {
+  font-weight: 800; /* extrabold */
+  letter-spacing: -0.015em; /* tracking-tight */
+}
+
+/* H1 */
+h1 {
+  font-size: 2.25rem; /* text-4xl */
+}
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3.75rem; /* md:text-6xl */
+  }
+}
+
+/* H2 */
+h2 {
+  font-size: 1.875rem; /* text-3xl */
+}
+@media (min-width: 768px) {
+  h2 {
+    font-size: 2.25rem; /* md:text-4xl */
+  }
+}
+
+/* H3 */
+h3 {
+  font-size: 1.5rem; /* text-2xl */
+  font-weight: 600;   /* semibold */
+}
