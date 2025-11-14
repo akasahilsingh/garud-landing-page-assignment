@@ -1,5 +1,5 @@
 import React from "react";
-import Drone from "../../assets/Drone.webp"
+import Drone from "../assets/Drone.webp"
 import { motion } from "framer-motion";
 import {
   Cpu,
@@ -53,7 +53,7 @@ const Highlight = () => {
                   transition={{ duration: 0.5, delay: index * 0.2 }}
                   viewport={{ once: true }}
                 >
-                  <div className="flex-shrink-0">
+                  <div className="shrink-0">
                     <div className="flex items-center justify-center h-12 w-12 rounded-md bg-brand-cyan/10 text-brand-orange">
                       <item.icon className="h-6 w-6" />
                     </div>

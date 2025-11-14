@@ -1,11 +1,11 @@
 import React from "react";
 
-import Navbar from "./assets/Components/Navbar.jsx";
-import Hero from "./assets/Components/Hero.jsx";
-import About from "./assets/Components/About.jsx";
-import Capabilites from "./assets/Components/Capabilites.jsx";
-import Highlight from "./assets/Components/Highlight.jsx";
-import Footer from "./assets/Components/Footer.jsx";
+import Navbar from "./Components/Navbar.jsx";
+import Hero from "./Components/Hero.jsx";
+import About from "./Components/About.jsx";
+import Capabilites from "./Components/Capabilites.jsx";
+import Highlight from "./Components/Highlight.jsx";
+import Footer from "./Components/Footer.jsx";
 
 // Main App Component: This is the container for all other sections
 export default function App() {
