@@ -10,13 +10,15 @@ This project is a modern, responsive landing page for **VyomGarud**, a conceptua
 
 This project was built using React (with Vite), Tailwind CSS (v4), and Framer Motion.
 
+[Live Link](https://garud-landing-page-assignment.vercel.app/)
+
 ## 📸 Screenshots
 
-*(This is a placeholder for you to add your own screenshots. Just drag and drop your images into this section in your repository's `README.md` file.)*
+![Desktop Hero Image](./public/Desktophero.webp)
+![Desktop Feature Image](./public/Desktopfeature.webp)
+![Mobile Hero Image](./public/Mobilehero.webp)
+![Mobile Feature Image](./public/Mobilefeature.webp)
 
-| Desktop Preview | Mobile Preview |
-| :---: | :---: |
-|  |  |
 
 ## ✨ Features
 
